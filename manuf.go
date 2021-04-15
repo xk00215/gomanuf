@@ -27,7 +27,7 @@ func init() {
            parse(l[0], l[2],l[3])
        }else{
            if len(l) > 2 {
-               parse(l[0], l[2],"未知")
+               parse(l[0], l[2],"")
            }
        }
 
